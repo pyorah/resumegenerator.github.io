@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #89C4E1;
+  }
+  h1{
+    color: #144272;
+  }
+  p {
+    font-family: helvetica;
+    font-size: 24px;
+    text-align: center;
+    margin: 25px;
+  }
+
+  .small {
+    font-family: helvetica;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px;
+  }
+
+  button {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #0065a8;
+    padding: 11px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  button:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  input[type=text]::placeholder{
+    text-align: center;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  div {
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 380px;
+    text-align: center;
+  }

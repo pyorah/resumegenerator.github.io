@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>RESUME GENERATOR</title>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="https://unpkg.com/downloadjs@1.4.7"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PWNSV70NY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4PWNSV70NY');
+    </script>
+  </head>
+
+  <body>
+    <h1>RESUME GENERATOR</h1>
+    <div>
+        <form action="javascript:void(0);">
+          <input type="text" id="A" name="PROFESSIONAL SUMMARY" placeholder="PROFESSIONAL SUMMARY">
+          <input type="text" id="B" name="SKILLS" placeholder="SKILLS">
+          <input type="text" id="C" name="PROFESSIONAL SKILLS" placeholder="PRFESSIONAL SKILLS">
+          <input type="text" id="D" name="WORK HISTORY" placeholder="WORK HISTORY">
+
+          <select id="vertical" name="vertical">
+            <option value="Only Enjoy">Only Enjoy</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="UI/UX">UI/UX</option>
+            <option value="Fullstack">Fullstack</option>
+            <option value="App dev">App dev</option>
+            <option value="Game dev">Game dev</option>
+            <option value="Business Management">Business Management</option>
+            <option value="Public relations">Public Relations</option>
+
+          </select>
+          <br>
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday" name="BIRTHDAY" placeholder="NAME">
+          <br>
+
+        </form>
+      </div>
+    <button onclick="modifyPdf()">GENERATE</button>
+
+  </body>
+
+  <script>
+
+  </script>
+</html>
