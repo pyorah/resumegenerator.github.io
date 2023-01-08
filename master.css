@@ -1,0 +1,82 @@
+body{
+  
+}
+
+.heading{
+  margin: auto;
+  width: 70%;
+}
+.btn {
+  border: 0;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background: #A555EC;
+  text-decoration: none;
+}
+.buttons{
+  text-align: right;
+  margin-top: 0px;
+}
+.Intro{
+
+}
+.Part1{
+  margin: auto;
+  width: 70%;
+}
+p{
+  font-size: 20px
+}
+.bun {
+  border: 0;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  background: #A555EC;
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+}
+
+.bun:hover {
+  color: #A555EC;
+  background: #F3CCFF;
+  text-decoration: none;
+}
+.btu {
+  border: 1;
+  border-color: #A555EC;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Georgia;
+  color: #A555EC;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+}
+
+.btu:hover {
+  color: #F3CCFF;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+table, th, td {
+  border-width: 0px;
+
+}
